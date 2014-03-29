@@ -1,0 +1,41 @@
+{
+	"server": 
+	{
+		"ip_addr": "0.0.0.0",
+		"port": 5000,
+		"manager": 0
+	},
+	"managers": 
+	[
+	 	{
+	 		"name": "pyLoad",
+	 		"remote": true,
+	 		"host": "192.168.100.253",
+	 		"port": "7227",
+ 			"login": true,
+ 			"username": "kiwis",
+ 			"password": "Azertyui91!",
+	 		"cmds": 
+	 		{
+	 			"root": "pyLoadCli ",
+	 			"connection": 
+	 			{
+	 				"user": "-u ",
+	 				"pass": "--pw=",
+	 				"host": "-a ",
+	 				"port": "-p "
+	 			},
+	 			"add": 
+	 			{
+	 				"value": "add ",
+	 				"option": true
+	 			},
+	 			"status": 
+	 			{
+	 				"value": "status ",
+	 				"option": false
+	 			}
+	 		}
+	 	}
+	]
+}

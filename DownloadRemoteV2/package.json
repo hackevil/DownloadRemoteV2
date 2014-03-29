@@ -1,0 +1,21 @@
+{
+  "name": "DownloadRemoteV2",
+  "version": "0.0.0",
+  "description": "Server backend to push download to remote service via internet",
+  "main": "core/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Server backend to push download to remote service via internet"
+  },
+  "author": "Quentin Manfroi",
+  "license": "GPL",
+  "dependencies": {
+        "express": "*",
+        "sockjs": "*",
+        "hiredis": "*",
+        "redis": "*"
+    }
+}
